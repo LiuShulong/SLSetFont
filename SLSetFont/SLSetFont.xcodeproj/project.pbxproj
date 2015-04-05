@@ -14,6 +14,9 @@
 		74C9C2121AD17E3B001F9198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C2111AD17E3B001F9198 /* Images.xcassets */; };
 		74C9C2151AD17E3B001F9198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C2131AD17E3B001F9198 /* LaunchScreen.xib */; };
 		74C9C2211AD17E3B001F9198 /* SLSetFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2201AD17E3B001F9198 /* SLSetFontTests.m */; };
+		74C9C2331AD17F0B001F9198 /* UILabel+WebFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2301AD17F0B001F9198 /* UILabel+WebFont.m */; };
+		74C9C2361AD17F49001F9198 /* SLFontDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */; };
+		74C9C2391AD17FDD001F9198 /* SLFontDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		74C9C21A1AD17E3B001F9198 /* SLSetFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLSetFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9C21F1AD17E3B001F9198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C9C2201AD17E3B001F9198 /* SLSetFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSetFontTests.m; sourceTree = "<group>"; };
+		74C9C22F1AD17F0B001F9198 /* UILabel+WebFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WebFont.h"; sourceTree = "<group>"; };
+		74C9C2301AD17F0B001F9198 /* UILabel+WebFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WebFont.m"; sourceTree = "<group>"; };
+		74C9C2341AD17F49001F9198 /* SLFontDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLFontDownloaderOperation.h; sourceTree = "<group>"; };
+		74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLFontDownloaderOperation.m; sourceTree = "<group>"; };
+		74C9C2371AD17FDD001F9198 /* SLFontDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLFontDownloadManager.h; sourceTree = "<group>"; };
+		74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLFontDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		74C9C2031AD17E3B001F9198 /* SLSetFont */ = {
 			isa = PBXGroup;
 			children = (
+				74C9C22A1AD17F0B001F9198 /* SetFont */,
 				74C9C2081AD17E3B001F9198 /* AppDelegate.h */,
 				74C9C2091AD17E3B001F9198 /* AppDelegate.m */,
 				74C9C20B1AD17E3B001F9198 /* ViewController.h */,
@@ -117,6 +127,19 @@
 				74C9C21F1AD17E3B001F9198 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74C9C22A1AD17F0B001F9198 /* SetFont */ = {
+			isa = PBXGroup;
+			children = (
+				74C9C22F1AD17F0B001F9198 /* UILabel+WebFont.h */,
+				74C9C2301AD17F0B001F9198 /* UILabel+WebFont.m */,
+				74C9C2341AD17F49001F9198 /* SLFontDownloaderOperation.h */,
+				74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */,
+				74C9C2371AD17FDD001F9198 /* SLFontDownloadManager.h */,
+				74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */,
+			);
+			path = SetFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +244,10 @@
 			files = (
 				74C9C20D1AD17E3B001F9198 /* ViewController.m in Sources */,
 				74C9C20A1AD17E3B001F9198 /* AppDelegate.m in Sources */,
+				74C9C2331AD17F0B001F9198 /* UILabel+WebFont.m in Sources */,
+				74C9C2391AD17FDD001F9198 /* SLFontDownloadManager.m in Sources */,
 				74C9C2071AD17E3B001F9198 /* main.m in Sources */,
+				74C9C2361AD17F49001F9198 /* SLFontDownloaderOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

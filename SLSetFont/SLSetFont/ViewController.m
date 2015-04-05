@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UILabel+WebFont.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 100, 280, 60)];
+    label.text = @"字体下载测试";
+    [self.view addSubview:label];
+    label.backgroundColor = [UIColor clearColor];
+    label.textColor = [UIColor redColor];
+    
+    
+    UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(20, 180, 280, 60)];
+    label2.text = @"字体2";
+    [self.view addSubview:label2];
+    label2.backgroundColor = [UIColor clearColor];
+    label2.textColor = [UIColor cyanColor];
+    
+    NSArray * fontNames = [[NSArray alloc] initWithObjects:
+                           @"STXingkai-SC-Light",
+                           @"DFWaWaSC-W5",
+                           @"FZLTXHK--GBK1-0",
+                           @"STLibian-SC-Regular",
+                           @"LiHeiPro",
+                           @"HiraginoSansGB-W3",
+                           nil];
+    
+    [label sl_setFontWithFontName:fontNames[0] size:14];
+    [label2 sl_setFontWithFontName:fontNames[3] size:16];
+
 }
 
 - (void)didReceiveMemoryWarning {
