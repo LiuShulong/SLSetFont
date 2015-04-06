@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 LiuShulong. All rights reserved.
 //
 
-#import "UIButton+WebFont.h"
+#import "UIButton+SLWebFont.h"
 #import "SLFontDownloadManager.h"
 
-@implementation UIButton (WebFont)
+@implementation UIButton (SLWebFont)
 
 - (void)sl_setFontWithFontName:(NSString *)fontName size:(CGFloat)size
 {

@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel(WebFont)
+@interface UILabel(SLWebFont)
 
 - (void)sl_setFontWithFontName:(NSString *)fontName size:(CGFloat)size;
 

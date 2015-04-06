@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 daDreams. All rights reserved.
 //
 
-#import "UILabel+WebFont.h"
+#import "UILabel+SLWebFont.h"
 
 #import "SLFontDownloadManager.h"
 
-@implementation UILabel(WebFont)
+@implementation UILabel(SLWebFont)
 
 - (void)sl_setFontWithFontName:(NSString *)fontName size:(CGFloat)size
 {

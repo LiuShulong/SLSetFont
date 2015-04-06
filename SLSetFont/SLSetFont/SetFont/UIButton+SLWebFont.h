@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIButton (WebFont)
+@interface UIButton (SLWebFont)
 
 - (void)sl_setFontWithFontName:(NSString *)fontName size:(CGFloat)size;
 
