@@ -48,7 +48,7 @@
     [label sl_setFontWithFontName:fontNames[0] size:14];
     [label2 sl_setFontWithFontName:fontNames[3] size:16];
     
-    [self.testButton sl_setFontWithFontName:fontNames[4] size:18];
+    [_testButton sl_setFontWithFontName:fontNames[2] size:15];
 
 }
 
