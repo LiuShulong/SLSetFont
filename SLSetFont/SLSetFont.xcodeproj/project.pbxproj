@@ -17,6 +17,7 @@
 		74C9C2331AD17F0B001F9198 /* UILabel+WebFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2301AD17F0B001F9198 /* UILabel+WebFont.m */; };
 		74C9C2361AD17F49001F9198 /* SLFontDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */; };
 		74C9C2391AD17FDD001F9198 /* SLFontDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */; };
+		74C9C26E1AD26EC7001F9198 /* UIButton+WebFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C26D1AD26EC7001F9198 /* UIButton+WebFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLFontDownloaderOperation.m; sourceTree = "<group>"; };
 		74C9C2371AD17FDD001F9198 /* SLFontDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLFontDownloadManager.h; sourceTree = "<group>"; };
 		74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLFontDownloadManager.m; sourceTree = "<group>"; };
+		74C9C26C1AD26EC7001F9198 /* UIButton+WebFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebFont.h"; sourceTree = "<group>"; };
+		74C9C26D1AD26EC7001F9198 /* UIButton+WebFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				74C9C2351AD17F49001F9198 /* SLFontDownloaderOperation.m */,
 				74C9C2371AD17FDD001F9198 /* SLFontDownloadManager.h */,
 				74C9C2381AD17FDD001F9198 /* SLFontDownloadManager.m */,
+				74C9C26C1AD26EC7001F9198 /* UIButton+WebFont.h */,
+				74C9C26D1AD26EC7001F9198 /* UIButton+WebFont.m */,
 			);
 			path = SetFont;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C9C26E1AD26EC7001F9198 /* UIButton+WebFont.m in Sources */,
 				74C9C20D1AD17E3B001F9198 /* ViewController.m in Sources */,
 				74C9C20A1AD17E3B001F9198 /* AppDelegate.m in Sources */,
 				74C9C2331AD17F0B001F9198 /* UILabel+WebFont.m in Sources */,
@@ -440,6 +446,7 @@
 				74C9C2261AD17E3B001F9198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C9C2271AD17E3B001F9198 /* Build configuration list for PBXNativeTarget "SLSetFontTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +455,7 @@
 				74C9C2291AD17E3B001F9198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
