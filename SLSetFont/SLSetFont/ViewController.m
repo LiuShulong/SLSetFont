@@ -10,6 +10,8 @@
 
 #import "UILabel+WebFont.h"
 
+#import "UIButton+WebFont.h"
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 
@@ -45,6 +47,8 @@
     
     [label sl_setFontWithFontName:fontNames[0] size:14];
     [label2 sl_setFontWithFontName:fontNames[3] size:16];
+    
+    [_testButton sl_setFontWithFontName:fontNames[2] size:15];
 
 }
 
