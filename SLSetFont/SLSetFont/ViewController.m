@@ -11,6 +11,7 @@
 #import "UILabel+WebFont.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *testButton;
 
 @end
 
